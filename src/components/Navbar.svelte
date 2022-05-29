@@ -4,8 +4,16 @@
   import Nav from '$components/Nav.svelte'
 </script>
 
-<section>
+<section class="navbar">
   <Logo />
-  <NavBtn />
   <Nav />
+  <NavBtn />
 </section>
+
+
+<style>
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
