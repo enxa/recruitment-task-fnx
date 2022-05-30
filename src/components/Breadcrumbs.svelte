@@ -1,10 +1,7 @@
 <script>
   export let breadcrumbs = ''
 
-  $: {
-    breadcrumbs = breadcrumbs.split('|')
-    console.log(breadcrumbs)
-  }
+  $: { breadcrumbs = breadcrumbs.split('|') }
 </script>
 
 <section class="breadcrumbs">

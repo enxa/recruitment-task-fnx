@@ -9,7 +9,13 @@
 	<title>Poxam</title>
 </svelte:head>
 
-<section class="home">
+<section class="home rim">
 	<Breadcrumbs breadcrumbs="Domax|Aktualności"/>
 	<Content />
 </section>
+
+<style>
+	.home {
+		padding-top: 1rem;
+	}
+</style>
