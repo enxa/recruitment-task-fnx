@@ -10,6 +10,6 @@
 </svelte:head>
 
 <section class="home">
-	<Breadcrumbs />
+	<Breadcrumbs breadcrumbs="Domax|Aktualności"/>
 	<Content />
 </section>
