@@ -13,7 +13,7 @@
     z-index: 100;
     cursor: pointer;
   }
-  @media (min-width: 960px) {
+  @media (min-width: 1280px) {
     .navbtn {
       display: none;
     }
