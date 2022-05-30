@@ -5,14 +5,14 @@
 	import Navbar from '$components/Navbar.svelte'
 </script>
 
-<header class="rim">
+<header>
 	<Navbar />
 </header>
 {#key $page}
-	<main class="rim" transition:slide>
+	<main transition:slide>
 		<slot />
 	</main>
 	{/key}
-<footer class="rim" >
+<footer>
 
 </footer>

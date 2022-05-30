@@ -4,7 +4,7 @@
   import Nav from '$components/Nav.svelte'
 </script>
 
-<section class="navbar">
+<section class="navbar rim">
   <Logo />
   <Nav />
   <NavBtn />

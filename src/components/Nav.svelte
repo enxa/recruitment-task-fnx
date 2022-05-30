@@ -78,7 +78,6 @@
         line-height: 3;
         font-weight: 700;
         text-transform: uppercase;
-        letter-spacing: .15rem;
         padding: .6rem 4vw;
         display: block;
         background: var(--color-mine-shaft);
