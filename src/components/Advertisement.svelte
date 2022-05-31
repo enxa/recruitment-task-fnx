@@ -2,7 +2,7 @@
   import Btn from '$components/Btn.svelte'
 </script>
 
-<section class="advertisement rim">
+<section class="advertisement rim" style="background: url('imgs/img-velano-1.png') no-repeat center center / cover;">
   <h3>Milano</h3>
   <p>Zawsze estetycznie i funkcjonalnie</p>
   <Btn 
@@ -17,7 +17,6 @@
   .advertisement {
     width: 100%;
     height: 66vh;
-    background: url('imgs/img-velano-1.png') no-repeat center center / cover;
     padding: 3rem;
     margin: 3rem 0;
   }
