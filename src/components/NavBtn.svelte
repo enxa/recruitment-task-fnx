@@ -13,11 +13,6 @@
     z-index: 100;
     cursor: pointer;
   }
-  @media (min-width: 1280px) {
-    .navbtn {
-      display: none;
-    }
-  }
     .navbtn a {
       width: 4rem;
       height: 4rem;
@@ -69,4 +64,10 @@
         transform: rotate(45deg);
         transform-origin: 50% 50%;
       }
+
+  @media (min-width: 1440px) {
+    .navbtn {
+      display: none;
+    }
+  }
 </style>

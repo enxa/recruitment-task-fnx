@@ -1,5 +1,4 @@
 <script>
-	import { slide } from 'svelte/transition'
   import { page } from '$app/stores'
 	import '../app.css';
 	import Navbar from '$components/Navbar.svelte'
@@ -9,10 +8,16 @@
 	<Navbar />
 </header>
 {#key $page}
-	<main transition:slide>
+	<main>
 		<slot />
 	</main>
 	{/key}
 <footer>
 
 </footer>
+
+<style>
+	header, main, footer {
+		padding: 0 12rem;
+	}
+</style>
