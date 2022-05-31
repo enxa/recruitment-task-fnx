@@ -17,7 +17,9 @@
 </footer>
 
 <style>
-	header, main, footer {
-		padding: 0 12rem;
+	@media (min-width: 1280px) {
+		header, main, footer {
+			padding: 0 12rem;
+		}
 	}
 </style>
