@@ -1,12 +1,12 @@
 <script>
   import Advertisement from '$components/Advertisement.svelte'
-  import News from '$components/News.svelte'
+  import Slider from '$components/Slider.svelte'
   import Form from '$components/Form.svelte'
 </script>
 
 <section class="content">
   <article>
-    <News />
+    <Slider />
     <Form />
   </article>
   <aside>

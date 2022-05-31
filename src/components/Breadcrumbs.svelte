@@ -6,7 +6,7 @@
 
 <section class="breadcrumbs">
   {#each breadcrumbs as breadcrumb, i}
-    <h3>{breadcrumbs[i]}</h3>
+    <h3><a href={'#' + breadcrumbs[i].toLowerCase}>{breadcrumbs[i]}</a></h3>
   {/each}
 </section>
 
@@ -42,4 +42,7 @@
       border-top: 1px solid var(--color-mine-shaft);
       border-right: 1px solid var(--color-mine-shaft);
     }
+      .breadcrumbs h3 a {
+        color: var(--color-mine-shaft);
+      }
 </style>
