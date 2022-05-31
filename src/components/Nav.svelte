@@ -8,32 +8,32 @@
 <section class="nav" transition:fade>
   <nav>
     <div>
-      <a href="poznaj-nas">Poznaj nas</a>
+      <a href="#poznaj-nas">Poznaj nas</a>
     </div>
     <div>
       <a href="#nasze-marki" on:click|preventDefault={() => brandsShow = !brandsShow}>Nasze marki</a>
         {#if brandsShow}
           <ul transition:slide>
             <li>
-              <a href="marka-1" on:click={() => brandsShow = !brandsShow}>Marka 1</a>
+              <a href="#marka-1" on:click={() => brandsShow = !brandsShow}>Marka 1</a>
             </li>
             <li>
-              <a href="marka-2" on:click={() => brandsShow = !brandsShow}>Marka 2</a>
+              <a href="#marka-2" on:click={() => brandsShow = !brandsShow}>Marka 2</a>
             </li>
             <li>
-              <a href="marka-3" on:click={() => brandsShow = !brandsShow}>Marka 3</a>
+              <a href="#marka-3" on:click={() => brandsShow = !brandsShow}>Marka 3</a>
             </li>
             <li>
-              <a href="marka-4" on:click={() => brandsShow = !brandsShow}>Marka 4</a>
+              <a href="#marka-4" on:click={() => brandsShow = !brandsShow}>Marka 4</a>
             </li>
           </ul>
         {/if}
     </div>
     <div>
-      <a href="dla-partnerow">Dla partnerów</a>
+      <a href="#dla-partnerow">Dla partnerów</a>
     </div>
     <div>
-      <a href="kontakt">Kontakt</a>
+      <a href="#kontakt">Kontakt</a>
     </div>
   </nav>
 
@@ -63,11 +63,6 @@
 <style>
   .nav {
     display: none;
-  }
-  @media (min-width: 1280px) {
-    .nav {
-      display: flex;
-    }
   }
     .nav nav {
       display: flex;
@@ -108,4 +103,10 @@
         height: 3rem;
         margin: 1.4rem 0;
       }
+
+  @media (min-width: 1440px) {
+    .nav {
+      display: flex;
+    }
+  }
 </style>
